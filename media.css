@@ -145,7 +145,7 @@
   }
   .button1
   {
-    border-radius: 100vh;
+    border-top-left-radius: 0vh;
   }
   .images-gallery {
     display: flex;
