@@ -1,0 +1,211 @@
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .chefs-img {
+    justify-content: flex-start;
+    margin: 0px;
+    width: 100%;
+  }
+  .cards {
+    width: calc(100% / 2 - 30px);
+    margin: 0;
+  }
+  .images-gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 1450px;
+  }
+  .gred {
+    width: calc(calc(100% - 20px) / 2);
+    margin: 0;
+  }
+  .details {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .address,
+  .email,
+  .phone,
+  .opening-hours {
+    width: calc(100% / 2 - 10px);
+  }
+  .container6 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .slice1,
+  .slice3 {
+    width: calc(100% / 2 - 20px);
+  }
+  .slice3 {
+    order: 2;
+  }
+  .slice2 {
+    order: 3;
+  }
+}
+@media all and (min-width: 993px) {
+  .container2 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  .home-contant {
+    align-items: flex-start;
+    width: 40%;
+  }
+  .container2 .home-img {
+    width: 40%;
+  }
+  .container2 h2 {
+    text-align: start;
+  }
+  .cards {
+    width: calc(100% / 3 - 30px);
+  }
+  .images-gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 900px;
+  }
+  .gred {
+    width: calc(calc(100% - 20px * 2) / 3);
+  }
+  .pidza {
+    order: 8;
+  }
+  .pergar {
+    order: 0;
+  }
+  .details {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .address,
+  .email,
+  .phone,
+  .opening-hours {
+    width: calc(100% / 2 - 10px);
+  }
+  .input-group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .input-group input {
+    width: calc(100% / 2 - 10px);
+  }
+  .container6 {
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .slice1,
+  .slice3 {
+    width: calc(100% / 2 - 20px);
+  }
+  .slice3 {
+    order: 2;
+  }
+  .slice2 {
+    order: 3;
+  }
+}
+@media all and (min-width: 1200px) {
+  .fa-moon {
+    display: inline;
+  }
+  .bars,
+  .close-icon {
+    display: none;
+  }
+  .navbar {
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    transform: translateX(0px);
+    flex-direction: row;
+    z-index: 0;
+    position: relative;
+    padding: 0%;
+    height: max-content;
+  }
+  .navbar .container ul a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.8;
+  }
+  .button1
+  {
+    border-radius: 100vh;
+  }
+  .images-gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 72.8125rem;
+  }
+  .gred {
+    width: calc(calc(100% - 20px * 2) / 3);
+  }
+
+  .container6 {
+    width: 95%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .slice3 {
+    order: 3;
+  }
+  .slice2 {
+    order: 2;
+  }
+  .slice1,
+  .slice3,
+  .slice2 {
+    width: calc(100% / 3 - 20px);
+  }
+  body:has(#home:target) li a[href="#home"] {
+    opacity: 1;
+  }
+  body:has(#Chefs:target) li a[href="#Chefs"] {
+    opacity: 1;
+  }
+  body:has(#Gallery:target) li a[href="#Gallery"] {
+    opacity: 1;
+  }
+  body:has(#Contact:target) li a[href="#Contact"] {
+    opacity: 1;
+  }
+  body:has(#home:target) li a[href="#home"]::before,
+  body:has(#Contact:target) li a[href="#Contact"]::before,
+  body:has(#Gallery:target) li a[href="#Gallery"]::before,
+  body:has(#Chefs:target) li a[href="#Chefs"]::before {
+    width: 100%;
+  }
+}
+@media all and (min-width: 1606px) {
+  .images-gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 72.8125rem;
+  }
+  .gred {
+    width: calc(calc(100% - 20px * 2) / 3);
+  }
+  .pergar {
+    order: 1;
+  }
+  .kofta {
+    order: 2;
+  }
+}
